@@ -27,7 +27,7 @@ function iChing() {
   showLeft();
   getChanges();
   showRight()
-  window.scrollTo(0,0);
+  window.top.scrollTo(0,0);
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
   window.location.hash = results;
